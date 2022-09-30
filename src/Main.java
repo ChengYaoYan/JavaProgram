@@ -1,14 +1,12 @@
-import java.lang.reflect.Type;
-import java.util.Arrays;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        String[] nums = {"1", "2", "3"};
+        ArrayList<String> foods = new ArrayList<String>();
 
-        Arrays.sort(nums);
+        foods.add("pizza");
+        foods.set(0, "banana");
 
-        for (String num : nums) {
-            System.out.println(num);
-        }
+        foods.forEach(System.out::println);
     }
 }
