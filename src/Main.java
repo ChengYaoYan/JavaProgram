@@ -1,5 +1,14 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Hello %1s %2s", "Jack", "Mike");
+        final ArrayList<String> foods = new ArrayList<String>();
+
+        foods.add("Banana");
+        foods.add("Banana");
+        foods.forEach(System.out::println);
+
+        foods = new ArrayList<String>();
+
     }
 }
