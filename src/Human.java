@@ -3,8 +3,6 @@ public class Human {
     int height;
     double weight;
 
-
-
     Human(int height, double weight) {
         this.height = height;
         this.weight = weight;
@@ -16,5 +14,9 @@ public class Human {
     }
 
     void who() {
+    }
+
+    public String toString() {
+        return this.name;
     }
 }

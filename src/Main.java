@@ -4,7 +4,8 @@ public class Main {
         Human person1 = new Human(170, 120.5);
         Human person2 = new Human("Jack", 170, 120.5);
 
-        person1.who();
-        person2.who();
+        System.out.println(person2.toString());
+        System.out.println(person1.toString());
     }
+
 }
