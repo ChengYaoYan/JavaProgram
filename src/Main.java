@@ -1,14 +1,10 @@
-import java.util.ArrayList;
-
 public class Main {
     public static void main(String[] args) {
-        final ArrayList<String> foods = new ArrayList<String>();
 
-        foods.add("Banana");
-        foods.add("Banana");
-        foods.forEach(System.out::println);
+        Human person1 = new Human(170, 120.5);
+        Human person2 = new Human("Jack", 170, 120.5);
 
-        foods = new ArrayList<String>();
-
+        person1.who();
+        person2.who();
     }
 }
