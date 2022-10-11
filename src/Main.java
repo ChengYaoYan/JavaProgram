@@ -1,13 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         // inheritance
-        ToolsetOne tool = new ToolTwo();
+        First f1 = new Two(1, "t2");
+        First f2 = new Two(2, "t3");
 
-        tool.nail(4);
-
-        for (String t: tool.tools) {
-            System.out.println(t);
-        }
+        System.out.println(f1.getNum());
+        System.out.println(f2.getNum());
 
         // super
 
