@@ -1,13 +1,6 @@
-public class Two extends First{
-    String name;
-
-    Two(int num, String name) {
-        super(num);
-        this.name = name;
-    }
-
+public class Two extends First {
     @Override
-    int getNum() {
-        return super.getNum() + 1;
+    void add() {
+        System.out.println("abstract class");
     }
 }
