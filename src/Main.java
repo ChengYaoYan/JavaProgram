@@ -1,12 +1,28 @@
 public class Main {
     public static void main(String[] args) {
+        // inheritance
+        ToolsetOne tool = new ToolTwo();
 
-        Human person1 = new Human(170, 120.5);
-        Human person2 = new Human("Jack", 170, 120.5);
+        tool.nail(4);
 
-        System.out.println(Human.getPeople());
-        Human person3 = new Human("Jack", 170, 120.5);
-        System.out.println(Human.getPeople());
+        for (String t: tool.tools) {
+            System.out.println(t);
+        }
+
+        // super
+
+        // abstraction
+
+        // access modifier
+
+        // encapsulation
+
+        // copy objects
+
+        // interface
+
+        // polymorphism
+
+        // dynamic polymorphism
     }
-
 }
