@@ -1,10 +1,21 @@
-public class Car {
+public class Car implements tool1, tool2 {
     private String make = "Tesla";
     private String model = "modelY";
 
     Car(String make, String model) {
         this.setMake(make);
         this.setModel(model);
+    }
+
+
+    @Override
+    public void to1() {
+
+    }
+
+    @Override
+    public void to2() {
+
     }
 
     String getMake() {
