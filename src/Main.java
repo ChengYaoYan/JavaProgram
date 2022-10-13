@@ -3,11 +3,27 @@ public class Main {
         // access modifier
 
         // encapsulation
-        Car car1 = new Car("Tesla","modelX");
-        String make = car1.getMake();
-        String model = car1.getModel();
 
         // copy objects
+        Car car1 = new Car("gg", "gg");
+        Car car2 = new Car("tt", "tt");
+
+        System.out.println(car1.getMake());
+        System.out.println(car1.getModel());
+        System.out.println(car2.getMake());
+        System.out.println(car2.getModel());
+        System.out.println(car1);
+        System.out.println(car2);
+
+        car1.copy(car2);
+
+        System.out.println(car1);
+        System.out.println(car2);
+
+        System.out.println(car1.getMake());
+        System.out.println(car1.getModel());
+        System.out.println(car2.getMake());
+        System.out.println(car2.getModel());
 
         // interface
 

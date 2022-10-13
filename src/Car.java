@@ -22,4 +22,9 @@ public class Car {
     void setModel(String model) {
         this.model = model;
     }
+
+    void copy(Car car) {
+        this.setMake(car.getMake());
+        this.setModel(car.getModel());
+    }
 }
