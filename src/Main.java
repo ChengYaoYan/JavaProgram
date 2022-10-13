@@ -1,27 +1,14 @@
+import java.io.File;
+
 public class Main {
     public static void main(String[] args) {
-        // access modifier
+        File tt = new File("./secret.txt");
 
-        // encapsulation
-
-        // copy objects
-        // interface
-
-
-
-
-
-        // polymorphism
-
-
-        // dynamic polymorphism
-
-        // exception handling
-        try {
-            int foo = 10;
-            System.out.println(foo / 0);
-        } catch (Exception e) {
-            System.out.println("false" + e);
+        if (tt.exists()) {
+            System.out.println(tt.getPath());
+            System.out.println(tt.delete());
+        } else  {
+            System.out.println("doesn't exist");
         }
     }
 }

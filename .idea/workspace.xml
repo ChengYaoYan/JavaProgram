@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0fbbf53-4b09-44d3-b34e-5b1c046c648e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/secret.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tesla.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg1/First1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg1/First2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg2/Two1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg2/Two2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tool1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tool2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +54,11 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="with parameters" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -64,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664420376236</updated>
       <workItem from="1664420379846" duration="319000" />
-      <workItem from="1664420706650" duration="38161000" />
+      <workItem from="1664420706650" duration="39345000" />
     </task>
     <servers />
   </component>
